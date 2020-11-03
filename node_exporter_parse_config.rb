@@ -10,7 +10,7 @@ filesystem collector.
 --collector.netclass.ignored-devices="^$"
 Regexp of net devices to ignore for netclass
 collector.
---collector.netdev.ignored-devices="^$"
+--collector.netdev.device-blacklist="^$"
 Regexp of net devices to ignore for netdev
 collector.
 --collector.netstat.fields="^(.*_(InErrors|InErrs)|Ip_Forwarding|Ip(6|Ext)_(InOctets|OutOctets)|Icmp6?_(InMsgs|OutMsgs)|TcpExt_(Listen.*|Syncookies.*|TCPSynRetrans)|Tcp_(ActiveOpens|InSegs|OutSegs|PassiveOpens|RetransSegs|CurrEstab)|Udp6?_(InDatagrams|OutDatagrams|NoPorts))$"
